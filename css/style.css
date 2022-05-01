@@ -37,19 +37,19 @@ li{
         text-align: center;
         padding-top: 40px;
     }
-    li.hebergements:focus a, li.activites:focus a{
-        color: #0065FC; 
-    } 
-    li.hebergements:focus, li.activites:focus {
-        border-top: 3px solid #0065FC;
-        color: #0065FC;
-    }
     li.hebergements:hover a, li.activites:hover a{
         color: #0065FC; 
     }  
     li.hebergements:hover, li.activites:hover{
         border-top: 3px solid #0065FC;;
         color: #0065FC;  
+    }
+    li.hebergements:focus a, li.activites:focus a{
+        color: #0065FC; 
+    } 
+    li.hebergements:focus, li.activites:focus {
+        border-top: 3px solid #0065FC;
+        color: #0065FC;
     }
     li.hebergements:active a, li.activites:active a{
         color: #0065FC;
@@ -118,6 +118,12 @@ li{
         .bouton_rechercher_desktop_tablette:hover{
             border: 1px solid #DEEBFF;
         }
+        .bouton_rechercher_desktop_tablette:focus{
+            border: 1px solid #DEEBFF;
+        }
+        .bouton_rechercher_desktop_tablette:active{
+            border: 1px solid #DEEBFF;
+        }
         /* Icône barre de recherche */
         .fa-location-dot {
             font-size: 17px; /* Dimensionnement de l'icône "localisation" */
@@ -155,6 +161,14 @@ li{
             padding-left: 35px;
         }
         .aspect_filtres:hover{
+            color: #0065FC;
+            cursor: pointer;
+        }
+        .aspect_filtres:focus{
+            color: #0065FC;
+            cursor: pointer;
+        }
+        .aspect_filtres:active{
             color: #0065FC;
             cursor: pointer;
         }
@@ -266,6 +280,12 @@ li{
             .choix_hebergements a:hover, .selection_les_plus_populaires a:hover{
                 box-shadow: 0px 0px 7px #6a6b6b;
             }
+            .choix_hebergements a:focus, .selection_les_plus_populaires a:focus{
+                box-shadow: 0px 0px 7px #6a6b6b;
+            }
+            .choix_hebergements a:active, .selection_les_plus_populaires a:active{
+                box-shadow: 0px 0px 7px #6a6b6b;
+            }
             .hebergements_image{
                 width:100%;
                 height: 120px;
@@ -297,6 +317,12 @@ li{
                 font-size: 18px;
             }
             #afficher_plus a:hover{
+                color: #0065FC;
+            }
+            #afficher_plus a:focus{
+                color: #0065FC;
+            }
+            #afficher_plus a:active{
                 color: #0065FC;
             }
         /* Partie Les plus populaires */
@@ -400,6 +426,12 @@ li{
         #element_1 a:hover, #element_2 a:hover, #element_3 a:hover, #element_4 a:hover, #element_5 a:hover, #element_6 a:hover{
             box-shadow: 0px 0px 7px #6a6b6b;
         }
+        #element_1 a:focus, #element_2 a:focus, #element_3 a:focus, #element_4 a:focus, #element_5 a:focus, #element_6 a:focus{
+            box-shadow: 0px 0px 7px #6a6b6b;
+        }
+        #element_1 a:active, #element_2 a:active, #element_3 a:active, #element_4 a:active, #element_5 a:active, #element_6 a:active{
+            box-shadow: 0px 0px 7px #6a6b6b;
+        }
         #element_1, #element_4{
             display: flex;
             flex-direction: column;
@@ -497,7 +529,12 @@ li{
     li.liens_footer:hover a{
         font-weight: 600;  
     }
-            
+    li.liens_footer:focus a{
+        font-weight: 600;  
+    }
+    li.liens_footer:active a{
+        font-weight: 600;  
+    }   
 /* Breakpoints, convenu avec le designer UI : 992px pour les écrans d'ordinateur et 768px pour les tablettes */
 
 @media screen and (min-width: 993px) {
@@ -602,6 +639,20 @@ li{
     li.hebergements:hover a, li.activites:hover a{
         color: #0065FC;
     }
+    li.hebergements:focus, li.activites:focus {
+        border-top: 0;
+        border-bottom: 3px solid #0065FC;
+    }
+    li.hebergements:focus a, li.activites:focus a{
+        color: #0065FC;
+    }
+    li.hebergements:active, li.activites:active {
+        border-top: 0;
+        border-bottom: 3px solid #0065FC;
+    }
+    li.hebergements:active a, li.activites:active a{
+        color: #0065FC;
+    }
     li.hebergements, li.activites{
        flex: auto;
        width: 100%;
@@ -634,6 +685,12 @@ li{
             right: 15px;
         }
         .bouton_rechercher_mobile:hover{
+            border: 1px solid #DEEBFF;
+        }
+        .bouton_rechercher_mobile:focus{
+            border: 1px solid #DEEBFF;
+        }
+        .bouton_rechercher_mobile:active{
             border: 1px solid #DEEBFF;
         }
         /* Dimensionnement de l'icône "loupe" */
@@ -834,6 +891,14 @@ li{
         padding-bottom: 20px;
     }
     li.hebergements:hover, li.activites:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: 0;
+    }
+    li.hebergements:focus, li.activites:focus {
+        border-bottom: 3px solid #0065FC;
+        border-top: 0;
+    }
+    li.hebergements:active, li.activites:active {
         border-bottom: 3px solid #0065FC;
         border-top: 0;
     }
