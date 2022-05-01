@@ -634,24 +634,27 @@ li{
     }
     li.hebergements:hover, li.activites:hover {
         border-top: 0;
-        border-bottom: 3px solid #0065FC;
+      /*  border-bottom: 3px solid #0065FC;*/
+        background: grey;
     }
     li.hebergements:hover a, li.activites:hover a{
-        color: #0065FC;
+        color: #000000;
     }
     li.hebergements:focus, li.activites:focus {
         border-top: 0;
-        border-bottom: 3px solid #0065FC;
+      /*  border-bottom: 3px solid #0065FC;*/
+        background: grey;
     }
     li.hebergements:focus a, li.activites:focus a{
-        color: #0065FC;
+        color: #000000;
     }
     li.hebergements:active, li.activites:active {
         border-top: 0;
-        border-bottom: 3px solid #0065FC;
+      /*  border-bottom: 3px solid #0065FC;*/
+        background: grey;
     }
     li.hebergements:active a, li.activites:active a{
-        color: #0065FC;
+        color: #000000;
     }
     li.hebergements, li.activites{
        flex: auto;
