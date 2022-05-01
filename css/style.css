@@ -37,26 +37,12 @@ li{
         text-align: center;
         padding-top: 40px;
     }
-    li.hebergements:hover a, li.activites:hover a{
+    li.hebergements:hover a, li.activites:hover a, li.hebergements:focus a, li.activites:focus a, li.hebergements:active a, li.activites:active a{
         color: #0065FC; 
     }  
-    li.hebergements:hover, li.activites:hover{
+    li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:focus, li.hebergements:active, li.activites:active{
         border-top: 3px solid #0065FC;;
         color: #0065FC;  
-    }
-    li.hebergements:focus a, li.activites:focus a{
-        color: #0065FC; 
-    } 
-    li.hebergements:focus, li.activites:focus {
-        border-top: 3px solid #0065FC;
-        color: #0065FC;
-    }
-    li.hebergements:active a, li.activites:active a{
-        color: #0065FC;
-    }
-    li.hebergements:active, li.activites:active{
-        border-top: 3px solid #0065FC;;
-        color: #0065FC; 
     }
 /* Main - corps de la page 
     /* Partie Recherche */
@@ -115,13 +101,7 @@ li{
             font-weight: bold;
             font-size: 17px;
         }
-        .bouton_rechercher_desktop_tablette:hover{
-            border: 1px solid #DEEBFF;
-        }
-        .bouton_rechercher_desktop_tablette:focus{
-            border: 1px solid #DEEBFF;
-        }
-        .bouton_rechercher_desktop_tablette:active{
+        .bouton_rechercher_desktop_tablette:hover, .bouton_rechercher_desktop_tablette:focus, .bouton_rechercher_desktop_tablette:active{
             border: 1px solid #DEEBFF;
         }
         /* Icône barre de recherche */
@@ -160,15 +140,7 @@ li{
             padding-right: 15px;
             padding-left: 35px;
         }
-        .aspect_filtres:hover{
-            color: #0065FC;
-            cursor: pointer;
-        }
-        .aspect_filtres:focus{
-            color: #0065FC;
-            cursor: pointer;
-        }
-        .aspect_filtres:active{
+        .aspect_filtres:hover, .aspect_filtres:focus, .aspect_filtres:active{
             color: #0065FC;
             cursor: pointer;
         }
@@ -277,13 +249,7 @@ li{
                 border: 4px solid white;
                 border-radius: 20px;
             }
-            .choix_hebergements a:hover, .selection_les_plus_populaires a:hover{
-                box-shadow: 0px 0px 7px #6a6b6b;
-            }
-            .choix_hebergements a:focus, .selection_les_plus_populaires a:focus{
-                box-shadow: 0px 0px 7px #6a6b6b;
-            }
-            .choix_hebergements a:active, .selection_les_plus_populaires a:active{
+            .choix_hebergements a:hover, .selection_les_plus_populaires a:hover, .choix_hebergements a:focus, .selection_les_plus_populaires a:focus, .choix_hebergements a:active, .selection_les_plus_populaires a:active{
                 box-shadow: 0px 0px 7px #6a6b6b;
             }
             .hebergements_image{
@@ -316,13 +282,7 @@ li{
                 font-weight: bold;
                 font-size: 18px;
             }
-            #afficher_plus a:hover{
-                color: #0065FC;
-            }
-            #afficher_plus a:focus{
-                color: #0065FC;
-            }
-            #afficher_plus a:active{
+            #afficher_plus a:hover, #afficher_plus a:focus, #afficher_plus a:active{
                 color: #0065FC;
             }
         /* Partie Les plus populaires */
@@ -423,12 +383,8 @@ li{
             position: absolute;
             border-radius: 20px;
         }
-        #element_1 a:hover, #element_2 a:hover, #element_3 a:hover, #element_4 a:hover, #element_5 a:hover, #element_6 a:hover{
-            box-shadow: 0px 0px 7px #6a6b6b;
-        }
-        #element_1 a:focus, #element_2 a:focus, #element_3 a:focus, #element_4 a:focus, #element_5 a:focus, #element_6 a:focus{
-            box-shadow: 0px 0px 7px #6a6b6b;
-        }
+        #element_1 a:hover, #element_2 a:hover, #element_3 a:hover, #element_4 a:hover, #element_5 a:hover, #element_6 a:hover,
+        #element_1 a:focus, #element_2 a:focus, #element_3 a:focus, #element_4 a:focus, #element_5 a:focus, #element_6 a:focus,
         #element_1 a:active, #element_2 a:active, #element_3 a:active, #element_4 a:active, #element_5 a:active, #element_6 a:active{
             box-shadow: 0px 0px 7px #6a6b6b;
         }
@@ -526,15 +482,9 @@ li{
         font-size: 17px;
         font-weight: 500; /*pour mettre la police entre normal et gras */
     }
-    li.liens_footer:hover a{
+    li.liens_footer:hover a, li.liens_footer:focus a, li.liens_footer:active a{
         font-weight: 600;  
     }
-    li.liens_footer:focus a{
-        font-weight: 600;  
-    }
-    li.liens_footer:active a{
-        font-weight: 600;  
-    }   
 /* Breakpoints, convenu avec le designer UI : 992px pour les écrans d'ordinateur et 768px pour les tablettes */
 
 @media screen and (min-width: 993px) {
@@ -632,34 +582,20 @@ li{
         display: flex;
         justify-content: space-between;
     }
-    li.hebergements:hover, li.activites:hover {
-        border-top: 0;
-        border-bottom: 3px solid #0065FC;
-    }
-    li.hebergements:hover a, li.activites:hover a{
-        color: #0065FC;
-    }
-    li.hebergements:focus, li.activites:focus {
-        border-top: 0;
-        border-bottom: 3px solid #0065FC;
-    }
-    li.hebergements:focus a, li.activites:focus a{
-        color: #0065FC;
-    }
-    li.hebergements:active, li.activites:active {
-        border-top: 0;
-        border-bottom: 3px solid #0065FC;
-    }
-    li.hebergements:active a, li.activites:active a{
-        color: #0065FC;
-    }
     li.hebergements, li.activites{
        flex: auto;
        width: 100%;
        justify-content: space-around;
        border-bottom: 4px solid #F2F2F2;
        padding-bottom: 20px;
-    } 
+    }
+    li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:focus, li.hebergements:active, li.activites:active{
+        border-top: 0;
+        border-bottom: 3px solid #0065FC;
+    }
+    li.hebergements:hover a, li.activites:hover a, li.hebergements:focus a, li.activites:focus a, li.hebergements:active a, li.activites:active a{
+        color: #0065FC;
+    }
 /* Main - corps de la page */
     /* Partie Recherche */
     #recherche p{
@@ -684,13 +620,7 @@ li{
             position: relative;
             right: 15px;
         }
-        .bouton_rechercher_mobile:hover{
-            border: 1px solid #DEEBFF;
-        }
-        .bouton_rechercher_mobile:focus{
-            border: 1px solid #DEEBFF;
-        }
-        .bouton_rechercher_mobile:active{
+        .bouton_rechercher_mobile:hover, .bouton_rechercher_mobile:focus, .bouton_rechercher_mobile:active{
             border: 1px solid #DEEBFF;
         }
         /* Dimensionnement de l'icône "loupe" */
@@ -890,15 +820,7 @@ li{
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
     }
-    li.hebergements:hover, li.activites:hover {
-        border-bottom: 3px solid #0065FC;
-        border-top: 0;
-    }
-    li.hebergements:focus, li.activites:focus {
-        border-bottom: 3px solid #0065FC;
-        border-top: 0;
-    }
-    li.hebergements:active, li.activites:active {
+    li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:focus, li.hebergements:active, li.activites:active{
         border-bottom: 3px solid #0065FC;
         border-top: 0;
     }
