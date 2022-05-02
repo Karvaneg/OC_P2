@@ -642,6 +642,7 @@ li{
         }
         #filtres_categories {
             margin-left: -33px;
+            margin-right: -10px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
