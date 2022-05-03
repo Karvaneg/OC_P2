@@ -179,6 +179,7 @@ li{
             font-size: 12px;
             padding-top: 2px;
             padding-left: 8px;
+            padding-right: 8px;
             margin-right: 8px;
             width: 25px;
             height: 25px;
@@ -499,7 +500,7 @@ li{
         }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    /**version tablette entre 769px et 992px**/
+    /**version tablette entre 769px et 992px **/
 /* Main - corps de la page */
     /* Partie Recherche */
         /* on masque le bouton loupe pour mobile, entre 769px et 992px */
