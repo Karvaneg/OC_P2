@@ -616,7 +616,6 @@ li{
         }
         /* Affichage du bouton loupe pour mobile */
         .bouton_rechercher_mobile {
-            padding: 8px;
             background-color: #0065FC;
             color: white;
             border: none;
@@ -624,7 +623,7 @@ li{
             padding-left: 19px;
             padding-right: 19px;
             position: relative;
-            right: 15px;
+            right: 33px;
         }
         .bouton_rechercher_mobile:hover, .bouton_rechercher_mobile:focus, .bouton_rechercher_mobile:active{
             border: 1px solid #DEEBFF;
@@ -649,6 +648,7 @@ li{
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            margin-right: 16px;
         }
         #filtres_categories > *:first-child, #filtres_categories > *:nth-child(2), #filtres_categories > *:nth-child(3){
             margin-right: -23px;
