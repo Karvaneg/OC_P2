@@ -604,6 +604,9 @@ li{
         #zone_recherche{
             width: 100%;
         }
+        input{
+            width: 220px;
+        }
         /* On masque le bouton rechercher */
         .bouton_rechercher_desktop_tablette{
             display: none
