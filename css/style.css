@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    min-width: 320px;
+}
 a{
     text-decoration:none;
     color: black;
@@ -605,7 +608,7 @@ li{
             width: 100%;
         }
         input{
-            width: 220px;
+            width: 232px;
         }
         /* On masque le bouton rechercher */
         .bouton_rechercher_desktop_tablette{
@@ -648,7 +651,7 @@ li{
             flex-wrap: wrap;
         }
         #filtres_categories > *:first-child, #filtres_categories > *:nth-child(2), #filtres_categories > *:nth-child(3){
-            margin-right: -20px;
+            margin-right: -23px;
         }
         .aspect_filtres{
             margin-bottom: 20px;
