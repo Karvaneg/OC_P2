@@ -1,6 +1,6 @@
 *{
     font-family: 'Raleway', sans-serif; /* Un nom de police suivi d'un nom de famille générique */
-    box-sizing: border-box;
+    box-sizing: border-box; /* indique au navigateur de prendre en compte la bordure et le remplissage dans la valeur définie pour la largeur et la hauteur */
     margin: 0;
     padding: 0;
 }
@@ -465,7 +465,6 @@ li{
     footer{
         background-color: #F2F2F2;
         display: flex;
-     /*   white-space: nowrap;*/
         padding-left:46px;
         padding-top: 45px;
         margin-top: 60px;
@@ -519,6 +518,9 @@ li{
         #filtres_categories > *:first-child{
             margin-left: 20px;
         }
+        #filtres_categories :nth-child(3){
+            margin-right: 20px;
+        }
         #filtres_categories > *:last-child{
             margin-left: 20px;
         }
@@ -561,10 +563,6 @@ li{
             width: 100%;
             margin-right: 20px;
         }
-/* Partie Footer */
-    .footer_colonne:nth-child(1){
-        margin-right: 50px;
-    }
 }
 @media screen and (min-width: 357px) and (max-width: 768px) {
     /** version mobile entre 357px et 768px **/
@@ -642,14 +640,12 @@ li{
             margin-bottom: 20px;
         }
         #filtres_categories {
-            margin-left: -33px;
             margin-right: -10px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
         }
-        #filtres_categories > *:first-child{
-            margin-left: 40px;
+        #filtres_categories > *:first-child, #filtres_categories > *:nth-child(2), #filtres_categories > *:nth-child(3){
             margin-right: -20px;
         }
         .aspect_filtres{
