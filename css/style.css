@@ -640,7 +640,6 @@ li{
             margin-bottom: 20px;
         }
         #filtres_categories {
-            margin-right: -10px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
