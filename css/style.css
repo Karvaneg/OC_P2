@@ -623,7 +623,7 @@ li{
             padding-left: 19px;
             padding-right: 19px;
             position: relative;
-            right: 33px;
+            right: 15px;
         }
         .bouton_rechercher_mobile:hover, .bouton_rechercher_mobile:focus, .bouton_rechercher_mobile:active{
             border: 1px solid #DEEBFF;
