@@ -97,6 +97,34 @@ ces deux navigateurs.
 
 * Implémenter une interface responsive
 
+## Evaluation
+
+___Évaluation___ : mardi 10 mai 2022
+#### -> `Projet validé`
+
+### Remarques sur l'évaluation
+
+
+1. Implémenter une interface responsive
+
+__-> L'interface s'adapte au terminal utilisé de manière ergonomique et propre.__
+
+2. Intégrer du contenu conformément à une maquette
+
+__-> La présentation de la maquette est respectée.__
+
+### Livrable
+
+___Points forts___ : Code impeccable et implémentation lisible. Les balises sémantiques sont employées judicieusement, de même que les classes et identifiants, par rapport aux attentes sur ce projet.
+
+___Axes d'amélioration___ : Attention toutefois à ne pas trop se reposer sur flex, toutefois.
+
+### Soutenance
+
+___Remarques___ : Réponses satisfaisantes aux questions posées.
+
+__Bravo et bonne chance pour la suite!__
+
 ## Ressources utilisées
 
 * [Validateur W3C](https://validator.w3.org/)) - Outil pour vérifier que le code est conforme aux standards du Web.
